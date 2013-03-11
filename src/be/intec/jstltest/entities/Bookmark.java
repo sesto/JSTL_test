@@ -1,6 +1,8 @@
 package be.intec.jstltest.entities;
 
-public class Bookmark {
+import java.io.Serializable;
+
+public class Bookmark implements Serializable{
 	private String name;
 	private String url;
 	private String subject;
